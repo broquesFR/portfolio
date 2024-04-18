@@ -1,0 +1,150 @@
+header .photo_profile {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header {
+    margin-top: 0;
+    background-color: #2254a0;
+    display: flex; /* Utilisation de flexbox */
+    justify-content: space-around; /* Espacement entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    border-bottom: 5px solid white;
+    flex-wrap: wrap;
+}
+
+header button {
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #3B3B3B;
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+    min-height: 50px;
+    min-width: 100px; /* Définir une largeur fixe pour tous les boutons */
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    touch-action: manipulation;
+    will-change: transform;
+
+}
+
+header .btn1:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/basket.jpeg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header .btn2:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/bateau.jpg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header .btn3:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/table_mix.jpg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header .btn4:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/informatique.jpeg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header .btn5:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/backpacking.jpg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header .btn6:hover{
+    color: #fff;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    background-image: url("asset/img/projet_perso.jpg");
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le bouton */
+    background-position: center; /* Centre l'image dans le bouton */
+}
+
+header button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+body .img_dj {
+    width: 40%;
+    padding-top: 20px;
+}
+
+body .img_lettre {
+    padding-top: 20px;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+body .ele_body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body h1 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-top: 5px solid white;
+}
+
+footer img{
+    width: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+footer .ele_footer {
+    display: flex;
+    background-color: #2254a0;
+    justify-content: space-around;
+}
